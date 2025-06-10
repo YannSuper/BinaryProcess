@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<PackageId>BinaryProcess</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Yann</Authors>
+		<Company>Yann</Company>
+		<Description>Handle the conversion between arrays and bytes, compress bytes to reduce size, save locally, with extremely fast reading and saving speeds. Currently, only arrays of int, float, and double types are supported.</Description>
+		<PackageProjectUrl>https://github.com/YannSuper/repo</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/YannSuper/BinaryProcess.git</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>Binary Array binary array</PackageTags>
+		<Copyright>Copyright © 2025</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="assets\icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
